@@ -1,0 +1,12 @@
+require_relative 'helpers/session'
+
+include SessionHelpers
+
+feature 'feature description' do
+   scenario 'scenario description'  do
+      - visit
+      - do something
+      - call helper (to do something)
+      - expect something
+  end
+end
