@@ -1,0 +1,3 @@
+When(/^I enter "([^"]*)" in "([^"]*)"$/) do |player1name, field|
+  fill_in(field, with: player1name)
+end
