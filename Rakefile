@@ -4,8 +4,19 @@ require 'rubocop/rake_task'
 RuboCop::RakeTask.new :cop
 RSpec::Core::RakeTask.new :spec
 
-#running rake will make it run rubocop and rspec in one command
-task default: [:cop, :spec]
+task default: `bundle exec rackup`
+
+#running rake test will make it run rubocop and rspec in one command
+task test: [:cop, :spec]
+
+begin
+ require 'rspec/core/rake_task'
+ require 'rubocop/rake_task'
+ RuboCop::RakeTask.new :cop
+ RSpec::Core::RakeTask.new :spec
+rescue LoadError => e
+ puts "Test dependencies could not be loaded"
+end
 
 task :auto_upgrade do
   # auto_upgrade makes non-destructive changes.
