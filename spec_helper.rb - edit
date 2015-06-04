@@ -1,0 +1,19 @@
+# Remember environment variables from week 1?
+ENV['RACK_ENV'] = 'test' # because we need to know what database to work with
+
+# this needs to be after ENV["RACK_ENV"] = 'test'
+# because the server needs to know
+# what environment it's running it: test or development.
+# The environment determines what database to use.
+
+#getting the server file.. this is in the route directory
+require './app/server'
+
+#clear up and empty the database after each test.
+require 'database_cleaner'
+
+require 'capybara/rspec'
+
+#tells capybara what the master class is called.
+Capybara.app = /<ControllerClass/>  (found in Server.rb)
+#Capybara.app = Sinatra::Application
