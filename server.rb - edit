@@ -13,3 +13,6 @@ require_relative 'data_mapper_setup'
 
   #tells you where your views are..
   set :views, Proc.new { File.join(root, "", "views") }
+  
+  #line below allows you to encypt a cookie
+  set :session_secret, 'super secret'
