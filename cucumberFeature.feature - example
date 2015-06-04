@@ -1,0 +1,8 @@
+Feature: feature description
+  Multi line feature description encorporate user story
+
+  Scenario: Scenario description
+    Given I am on the home page
+    When I click "Add Question"
+    Then I visit the "A Page"
+    And I should see "some text on the screen"
