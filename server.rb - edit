@@ -1,0 +1,15 @@
+require "sinatra"
+require 'data_mapper'
+require 'rack-flash'
+require 'byebug'
+
+require_relative 'data_mapper_setup'
+
+  enable :sessions
+  use Rack::Flash
+
+  #This will allow us to use a new method in our server file, 'delete'
+  use Rack::MethodOverride
+
+  #tells you where your views are..
+  set :views, Proc.new { File.join(root, "", "views") }
