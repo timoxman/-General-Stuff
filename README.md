@@ -8,3 +8,7 @@ Section 1 deals with sinatra apps
 
 Section 2 deals setting up an Angular apps
 [Angular](https://github.com/timoxman/-General-Stuff/wiki/Angular)
+
+
+Section 3 deals setting up an Mongo databasses
+[Angular](https://github.com/timoxman/-General-Stuff/wiki/Mongo)
