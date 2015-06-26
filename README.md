@@ -11,4 +11,4 @@ Section 2 deals setting up an Angular apps
 
 
 Section 3 deals setting up an Mongo databasses
-[Angular](https://github.com/timoxman/-General-Stuff/wiki/Mongo)
+[Mongo](https://github.com/timoxman/-General-Stuff/wiki/Mongo)
