@@ -12,3 +12,6 @@ Section 2 deals setting up an Angular apps
 
 Section 3 deals setting up an Mongo databasses
 [Mongo](https://github.com/timoxman/-General-Stuff/wiki/Mongo)
+
+Section 4, my best friends Git and GitHub 
+[Git](https://github.com/timoxman/-General-Stuff/wiki/Github)
