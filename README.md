@@ -15,3 +15,6 @@ Section 3 deals setting up an Mongo databasses
 
 Section 4, my best friends Git and GitHub 
 [Git](https://github.com/timoxman/-General-Stuff/wiki/Github)
+
+Section 5, Rails Apps 
+[Git](https://github.com/timoxman/-General-Stuff/wiki/Rails)
