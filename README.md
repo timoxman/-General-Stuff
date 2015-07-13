@@ -19,3 +19,5 @@ Section 4, my best friends Git and GitHub
 Section 5, Rails Apps 
 [Rails](https://github.com/timoxman/-General-Stuff/wiki/Rails)
 with [single page apps](https://github.com/timoxman/-General-Stuff/wiki/Single-Page-Apps)
+
+[Post course stuff](https://github.com/timoxman/-General-Stuff/wiki/postcourse)
