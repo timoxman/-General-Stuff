@@ -6,9 +6,10 @@ This repository is a set of other stuff which is useful for building application
 Section 1 deals with sinatra apps 
 [Sinatra](https://github.com/timoxman/-General-Stuff/wiki/Sinatra)
 
+Section 2 deals with JS -written by someone else! [JS](https://gist.github.com/gerard-morera/9e694f6951074c3ef06e)
+
 Section 2 deals setting up an Angular apps
 [Angular](https://github.com/timoxman/-General-Stuff/wiki/Angular)
-
 
 Section 3 deals setting up an Mongo databasses
 [Mongo](https://github.com/timoxman/-General-Stuff/wiki/Mongo)
